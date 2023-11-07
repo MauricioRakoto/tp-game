@@ -1,0 +1,102 @@
+.container .welcome-slides .slides {
+    display: flex;
+    justify-content: center;
+}
+
+.container .welcome-slides .slide {
+    width: 60%;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.container .welcome-slides .slide .body {
+    margin-top: 10px;
+}
+
+.container .welcome-slides .slide .body .button {
+    margin-top: 20px;
+}
+
+.container .welcome-slides .slide .body .text p {
+    margin-top: 20px;
+}
+
+.container .welcome-slides .slide .body .button a {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    background: #2d0d68;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+
+.container .welcome-slides .slide .body .button a:hover {
+    background: #d7a81a;
+    width: 170px;
+}
+
+.container .welcome-slides .slide .circle {
+    width: 70%;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    transition: all 7s ease-in-out;
+    animation: 7s rotate1 infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+.container .welcome-slides .slide .circle .rond {
+    width: 80px;
+    height: 80px;
+    background: #2d0d68;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+}
+
+.container .welcome-slides .slide .circle .rond i {
+    font-size: 20px;
+    transition: all 7s ease-in-out;
+    animation: 7s rotate1 infinite;
+}
+
+.container .welcome-slides .slide .start {
+    position: absolute;
+    top: 110px;
+}
+
+.container .welcome-slides .slide .start a {
+    width: 70px;
+    height: 70pX;
+    display: flex;
+    background: #af8b1d;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgb(165, 48, 165);
+    transition: .5s ease-in;
+}
+
+.container .welcome-slides .slide .start a:hover {
+    box-shadow: 0 0 30px rgb(155, 82, 82);
+}
